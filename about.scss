@@ -7,7 +7,6 @@
 
 body {
   font-family: "Lato", sans-serif;
-  // padding: 0 6.4rem;
 }
 
 a {
@@ -16,7 +15,7 @@ a {
 }
 
 .imgAnimate {
-  opacity: 0; /* Start with opacity 0 to make them initially invisible */
+  opacity: 0;
 }
 
 $h2Text: 18px;
@@ -34,7 +33,6 @@ $footerNavText: #000000;
 $backgroundColor: #fafafa;
 
 header {
-  // padding: 0.6rem 6.4rem;
   border-bottom: 1px solid #ebeaea;
 
   .mobileNav {
@@ -118,7 +116,6 @@ header {
 }
 
 .sectionOne {
-  // padding: 0.6rem 8rem;
   background-color: $backgroundColor;
   .deliver {
     .deliverCon {
@@ -201,7 +198,6 @@ header {
 }
 
 .sectionTwo {
-  // padding: 0.6rem 8rem;
   .about {
     .imgCon {
       overflow: hidden;
@@ -235,7 +231,6 @@ header {
 }
 
 .sectionThree {
-  // padding: 0.6rem 8rem;
   .mission {
     .missionCon {
       padding-right: 6rem;
@@ -269,7 +264,6 @@ header {
 }
 
 .sectionFour {
-  // padding: 0.6rem 8rem;
   background-color: $backgroundColor;
   .journey {
     .journeyCon {
@@ -310,7 +304,6 @@ header {
     .journeyScroll {
       max-height: 400px;
       overflow-y: auto;
-      // overflow: hidden;
 
       &::-webkit-scrollbar {
         width: 12px;
@@ -352,7 +345,6 @@ header {
 }
 
 .sectionFive {
-  // padding: 0.6rem 8rem;
   .partner {
     max-width: 650px;
     margin: 0 auto;
@@ -387,7 +379,6 @@ header {
 }
 
 .sectionSix {
-  // padding: 0;
   border-bottom: 1px solid #ebeaea;
 
   .pressNews {
@@ -454,7 +445,6 @@ footer {
 
         img {
           width: 200px;
-          // height: auto;
           transition: transform 0.5s ease-in-out;
 
           &:hover {
@@ -478,10 +468,6 @@ footer {
           background-color: #f0421f;
           color: #ffffff;
         }
-
-        // .imgIcon {
-        // overflow: hidden;
-        // }
       }
       .btnBrandOne {
         background-color: #ff5634;
@@ -496,10 +482,6 @@ footer {
           background-color: #f0421f;
           color: #ffffff;
         }
-
-        // .imgIcon {
-        // overflow: hidden;
-        // }
       }
     }
   }
@@ -528,7 +510,6 @@ footer {
 
     .utility {
       .browse {
-        // text-decoration: underline;
         border-bottom: 2px solid #ff5634;
         padding-bottom: 5px;
         font-weight: 800;
@@ -564,11 +545,8 @@ footer {
   }
 }
 
-// Tablet/ipad
 @media screen and (max-width: 1024px) {
   header {
-    // padding: 1.4rem 0.5rem;
-
     .navbar {
       width: 100%;
       display: flex;
@@ -645,7 +623,6 @@ footer {
 
       &.open {
         transform: translateY(0);
-        // display: none;
       }
       padding: 170px 10px 70px;
 
@@ -703,7 +680,6 @@ footer {
   }
 
   .sectionOne {
-    // padding: 0 !important;
     .deliver {
       .deliverCon {
         flex-direction: column;
@@ -724,7 +700,6 @@ footer {
         }
 
         .imgCon {
-          // width: 100%;
           width: 500px;
 
           .imgBurgerCon {
@@ -741,12 +716,10 @@ footer {
         }
 
         .num {
-          // margin-top: 2rem;
           .h3TextOne {
             font-size: 20px !important;
           }
           p {
-            // text-align: center;
             font-size: 16px;
           }
         }
@@ -787,7 +760,6 @@ footer {
       padding: 0 !important;
       flex-direction: column;
       .missionCon {
-        // padding: 0;
         width: 100%;
 
         .h3Text {
@@ -926,7 +898,6 @@ footer {
         }
       }
       .conCard {
-        // padding: 0 !important;
         gap: 0 !important;
 
         .cardCon {
@@ -1021,15 +992,10 @@ footer {
   }
 }
 
-//  Mobile/android
 @media screen and (max-width: 600px) {
   header {
-    // padding: 1.4rem 1rem;
-
     .navbar {
       display: flex;
-      // flex-direction: row;
-      // padding: 0 !important;
       height: 90px;
       padding: 0 1rem !important;
 
@@ -1081,17 +1047,14 @@ footer {
         .btnBrand {
           background-color: #ff5634;
           border: 1px solid;
-          // padding: 18px 25px;
           margin: 0 5px;
           transition: all 0.3s;
-          // width: 100%;
         }
       }
     }
   }
 
   .sectionOne {
-    // padding: 0 !important;
     .deliver {
       .deliverCon {
         flex-direction: column;
@@ -1131,7 +1094,6 @@ footer {
             font-size: 20px !important;
           }
           p {
-            // text-align: center;
             font-size: 16px;
           }
         }
@@ -1144,8 +1106,6 @@ footer {
 
     .about {
       padding: 0 !important;
-      // padding: 1.4rem 0.5rem;
-      //   display: flex;
       flex-direction: column-reverse;
 
       .imgCon {
@@ -1225,12 +1185,9 @@ footer {
         .journeyScroll {
           margin-top: 3rem;
           max-height: fit-content;
-          // overflow: visible;
 
           .card {
             padding: 2.3rem 1.4rem !important;
-            // align-items: center;
-            // justify-content: center;
             width: 100%;
             height: 410px;
 
@@ -1268,7 +1225,6 @@ footer {
           font-size: 28px;
         }
         p {
-          // letter-spacing: 0;
           font-size: 16px;
         }
       }
@@ -1317,7 +1273,6 @@ footer {
           margin-top: 2rem;
           flex-direction: column;
           .cardOne {
-            // padding: 6rem 4rem 3rem 4rem;
             align-items: center;
             justify-content: center;
 
@@ -1352,7 +1307,6 @@ footer {
       padding: 0 !important;
       display: flex;
       flex-direction: column;
-      // width: 110%;
 
       .foot {
         padding: 0 !important;
@@ -1364,7 +1318,6 @@ footer {
             }
           }
           p {
-            // letter-spacing: 0.03cm;
             font-size: 16px;
             padding-bottom: 1rem;
           }
